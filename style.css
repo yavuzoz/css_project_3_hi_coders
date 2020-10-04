@@ -1,0 +1,21 @@
+
+/* position relative dedikten sonra beyaz cubugun  top,left,right,buttom vererek konumunu belirledik */
+.swiss1 {
+  width: 200px;
+  height: 80px;
+  background: #fff;
+  border-top: 140px solid #c00;
+  border-right: 200px solid #c00;
+  border-bottom: 140px solid #c00;
+  border-left: 200px solid #c00;
+  position: relative;
+}
+/* burada onemli olan sey position absolute kullanmamiz.beyaz cubugu diger beyaz cubuk uzerine konumlandirdik*/
+.swiss2 {
+  width: 80px;
+  height: 200px;
+  background: #fff;
+  position: absolute;
+  top: -60px;
+  left: 60px;
+}
